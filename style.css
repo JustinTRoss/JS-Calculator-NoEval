@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* our own css below */
+
+body {
+	background: #00638B;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	color: #CD3F00;
+}
+
+#container {
+	width: 450px;
+	margin: 0 auto;
+	background: #fff;
+	font-family: Times;
+	border: 15px solid #700000;
+	margin-top: 20px;
+	border-radius:9px;
+	padding: 20px;
+
+}
+
+#container #buttons {
+	overflow: auto;
+	font-size: 15px;
+}
+
+#container #buttons #numbers {
+	width:75%;
+	float: left;
+}
+
+#container #buttons #numbers li {
+	float: left;
+	background: #900100;
+	width: 30%;
+	height: 90px;
+	color: #e5f1cd;
+	font-size:40px;
+	text-align: center;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	margin-right: 8px;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 2px 3px 0px #9c8bbd;
+	line-height: 80px;
+}
+
+#container #buttons #numbers li:active {
+	margin-left: 1px;
+	margin-right: 7px;
+	margin-bottom: 6px;
+	margin-top: 2px;
+	box-shadow: 0px 0px 0px;
+}
+
+#container #buttons #operators {
+	float:right;
+	width:25%;
+	height: 360px;
+}
+
+#container #buttons #operators li{
+	width: 100%;
+	height: 18.5%;
+	float: right;
+	background: #e5f1cd;
+	font-size: 40px;
+	color: #900100;
+	text-align: center;
+	margin-bottom: 8px;
+	margin-left: 9px;
+	margin-right: 1px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 2px 3px 0px #9c8bbd;
+	line-height: 80px;
+}
+
+#container #buttons #operators li:active {
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-top: 2px;
+	box-shadow: 0px 0px 0px;
+	font-size: 60px;
+}
+
+#container #buttons #numbers #zero {
+	width:63%;
+	margin-top: 4px;
+}
+
+#container #buttons #operators #equals {
+	background: #b00900;
+	color: #fff;
+	height: 24%;
+	margin-bottom: 0px;
+}
+
+#container #buttons #numbers #dot {
+	box-shadow: none;
+	font-size: 80px;
+	border-radius: 100px;
+}
+
+#container #output {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+#container #output #clear {
+	width: 10%;
+	float: left;
+	background: #f6c4c4;
+	text-align: center;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+#container #output #clear:active {
+	padding:14px 0;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+
+#container #output #theBoom {
+	float: left;
+	background: #e9e9e9;
+	font-size: 25px;
+	width: 85%;
+	padding: 0 10px;
+	text-align: right;
+	height: 46px;
+	line-height: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
