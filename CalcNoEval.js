@@ -84,11 +84,6 @@ window.onload = function() {
 							return;
 				}
 				
-
-				//else if (opTest) {
-				//	if (/\./.test(theBoom.innerHTML.slice(theBoom.innerHTML.lastIndexOf(lastOpValue)))) {
-				//		return;
-				//	}
 				else {
 					lastWas = e.target.innerHTML;
 					theBoom.innerHTML += lastWas;
